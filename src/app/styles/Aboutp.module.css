@@ -1,0 +1,24 @@
+.aboutSection {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px 5px;
+    background-color: #000; /* Background color */
+    color: #fff;
+
+}
+
+.sectionHeading {
+    font-size: 2.5rem; /* Large, prominent heading */
+    margin-bottom: 1rem;
+    color: #fff; /* Accent color for the heading */
+    text-align: center; /* Center-align the heading */
+}
+
+.aboutText {
+    font-size: 1.3rem; /* Medium font size for readability */
+    line-height: 1.6;
+    text-align: left; /* Left-align text under the heading */
+    max-width: 1280px;
+    margin: 0; /* Remove the auto margin to align it left */
+    padding-left: 1rem; /* Optional: add some left padding to avoid text touching the edge */
+}

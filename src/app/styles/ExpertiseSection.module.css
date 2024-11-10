@@ -1,0 +1,81 @@
+/* ExpertiseSection.module.css */
+
+.expertiseSection {
+    padding: 2rem;
+    background-color: #000; /* Background color */
+    color: #fff;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .expertiseItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .itemNumber {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; /* Optional: highlight color */
+  }
+  
+  .itemTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f7848c;
+  }
+  
+  .itemDescription {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .expertiseItem {
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .image {
+      width: 100%; /* Smaller width on mobile */
+    }
+  
+    .itemTitle {
+      font-size: 1.3rem;
+      text-align: left;
+    }
+  
+    .itemDescription {
+      text-align: left;
+      font-size: 0.9rem;
+    }
+  }
+  

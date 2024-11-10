@@ -1,0 +1,70 @@
+/* Container to center the content */
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Left content styling (logo + text) */
+  .leftContent {
+    flex: 1; /* Takes available space */
+    text-align: center; /* Centers the content */
+  }
+  
+  /* Logo styling */
+  .logo {
+    width: 250px; /* Adjust width as necessary */
+    height: 250px; /* Adjust height as necessary */
+    object-fit: contain; /* Ensure the logo fits properly inside the box */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Text below the logo */
+  .logoText {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #8b8a8a;
+  }
+  
+  /* Right content (contact form) */
+  .rightContent {
+    flex: 2; /* Takes more space than the logo section */
+  }
+  
+  /* Form styling */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  

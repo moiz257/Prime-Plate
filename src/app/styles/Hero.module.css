@@ -1,0 +1,52 @@
+.heroSection {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .videoContainer {
+    position: absolute;
+    inset: 0;
+    z-index: -20;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    background: linear-gradient(to bottom, transparent 70%, black);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    padding-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100%;
+    padding: 16px;
+  }
+  
+  .location {
+    padding: 8px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: white;
+  }
+  

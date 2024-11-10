@@ -1,0 +1,70 @@
+/* QuoteSection.module.css */
+
+.quoteSection {
+    padding: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .quoteText {
+    font-size: 2.5rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .authorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .authorImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .authorInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5;   
+  }
+  
+  .authorName {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .authorTitle {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  @media (max-width: 768px) {
+    .quoteSection {
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .quoteText {
+      font-size: 1.2rem;
+      text-align: start;
+      line-height: 1.5;
+    }
+  
+    .authorContainer {
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .authorInfo {
+      text-align: center;
+    }
+  }
+  

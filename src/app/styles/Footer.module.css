@@ -1,0 +1,85 @@
+/* ContactSection.module.css */
+
+.contactSection {
+    margin-top: 10%;
+    background-color: #000;
+    color: #838181;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    font-weight: 300;
+  }
+  
+  .contactDetails {
+    margin-bottom: 4rem;
+  }
+  
+  .contactItem {
+    font-size: 1.8rem;
+    margin-bottom: 6rem;
+    font-weight: 200;
+    position: relative;
+  }
+  
+  .contactItem::after {
+    content: "";
+    display: block;
+    margin-top: 2rem;
+    text-decoration: dotted;
+    width: 100%;
+    height: 1px;
+    background-color: #4b4a4a; /* Light underline */
+    margin: 0.5rem auto;
+  }
+  
+  .logoContainer {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logo {
+    margin-top: 5rem;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .socialIcons {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .footerText {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .contactSection {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .contactItem {
+      font-size: 0.9rem;
+    }
+  
+    .logo {
+      width: 60px;
+    }
+  
+    .footerText {
+      font-size: 0.7rem;
+    }
+  }
+  

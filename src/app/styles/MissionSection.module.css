@@ -1,0 +1,50 @@
+.missionSection {
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Half screen height for desktop */
+    overflow: hidden;
+  }
+  
+  .textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .paragraph {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    max-width: 600px;
+  }
+  
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes the video cover the area like a background */
+  }
+  
+  @media (max-width: 768px) {
+    .missionSection {
+      height: 30vh; /* Reduced height on mobile */
+    }
+  
+    .heading {
+      font-size: 2rem; /* Smaller font size on mobile */
+    }
+  
+    .paragraph {
+      font-size: 1rem; /* Smaller font size on mobile */
+    }
+  }
+  

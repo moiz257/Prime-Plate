@@ -1,0 +1,84 @@
+.expertiseSection {
+    padding: 2rem;
+    background-color: #000; /* Background color */
+    color: #fff;
+  }
+  
+  .sectionHeading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .expertiseItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .videoContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video {
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .itemNumber {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; /* Optional: highlight color */
+  }
+  
+  .itemTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f7848c;
+  }
+  
+  .itemDescription {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .expertiseItem {
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+      padding: 10px 5px;
+    }
+  
+    .video {
+      width: 100%; /* Adjust width on smaller screens */
+    }
+  
+    .itemTitle {
+      font-size: 1.3rem;
+      text-align: left;
+      margin-left: 1%;
+    }
+  
+    .itemDescription {
+      text-align: left;
+      margin-left: 1%;
+      font-size: 0.9rem;
+    }
+  }
+  
